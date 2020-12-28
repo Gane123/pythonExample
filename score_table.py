@@ -1,5 +1,4 @@
 import random
-import openpyxl
 import pandas as pd
 first_names=['A','B','C','D','E','F','G','H']
 last_names=['a','b','c','d','e','f','g','h']
