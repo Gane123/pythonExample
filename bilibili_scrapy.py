@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 
+
 # header模拟浏览器访问
 header={
     'Host': 'www.bilibili.com',
