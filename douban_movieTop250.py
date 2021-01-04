@@ -45,7 +45,6 @@ if __name__ == '__main__':
         all_titles,all_scores=get_Data(html,all_title,all_score)
     # 放到字典中
     dict = {'title（电影名字）': all_titles, 'score(评分)': all_scores}
-    # print(dict)
     # 转换成DataFrame格式
     df=pd.DataFrame(dict)
     # 索引从1开始
